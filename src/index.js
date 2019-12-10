@@ -3,8 +3,7 @@ import { render } from "react-dom";
 import data from "./data.json";
 
 function App() {
-  console.log(data);
-  return <div>!Hello React Shopping Cart</div>;
+  return <div class="main">Hello</div>;
 }
 
 render(<App />, document.getElementById("root"));
