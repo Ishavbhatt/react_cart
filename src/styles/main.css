@@ -1,1 +1,44 @@
-@import-normalize;
+.wrapper {
+  width: 500px;
+}
+.header {
+  background-color: #e2e8f0;
+}
+.heading {
+  color: aqua;
+}
+.products,
+.header,
+.totalamount {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+}
+.addbutton {
+  padding: 5px;
+  border-radius: 20%;
+  background-color: tomato;
+  outline: none;
+  border: none;
+}
+.checkoutbutton {
+  border-radius: 30%;
+  border: none;
+  padding: 10px;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+.formdata {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+}
+.formpadding {
+  padding-top: 10px;
+}
