@@ -22,7 +22,7 @@ function Total(props) {
   var total = props.cart.map(e => e.price).reduce((acc, price) => acc + price);
   return (
     <div className="card">
-      <p>Total Amount</p>
+      <p className="totalamountheading">Total Amount</p>
       <p>{total}</p>
     </div>
   );
@@ -33,8 +33,11 @@ function Cart(props) {
     <div>
       {props.cart.map(item => (
         <div className="products">
-          <h1>{item.title}</h1>
-          <p>{item.price}</p>
+          <h1 className="cartedproduct">{item.title}</h1>
+          <p className="cartedprice">
+            {item.price}
+            <span> $</span>
+          </p>
         </div>
       ))}
       <hr></hr>
