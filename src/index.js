@@ -23,7 +23,10 @@ function Total(props) {
   return (
     <div className="card">
       <p className="totalamountheading">Total Amount</p>
-      <p>{total}</p>
+      <p className="cartedprice">
+        {total}
+        <span> $</span>
+      </p>
     </div>
   );
 }

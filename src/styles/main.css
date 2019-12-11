@@ -35,6 +35,12 @@
   background-color: #fff;
   border: 1px solid lawngreen;
   color: lawngreen;
+
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: auto;
 }
 .formdata {
   display: flex;
@@ -75,4 +81,12 @@ span {
   color: yellow;
 }
 .totalamountheading {
+  font-size: 30px;
+  color: #dd5533;
+  text-shadow: 2px 3px #bbbbbb;
+}
+.cartpage-productheading {
+  font-size: 40px;
+  color: rgb(51, 93, 209);
+  text-shadow: 2px 4px magenta;
 }
