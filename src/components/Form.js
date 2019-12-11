@@ -10,7 +10,7 @@ export default class Form extends React.Component {
 
   handlechange = event => {
     console.log(event);
-    this.setState({ name: event.target.name });
+    this.setState({ name: event.target.value });
   };
 
   handleSubmit = event => {
@@ -33,7 +33,7 @@ export default class Form extends React.Component {
               />
             </label>
           </div>
-          {/* <div className="formpadding">
+          <div className="formpadding">
             <label>
               Email:
               <input className="inputform" type="text" />
@@ -56,8 +56,8 @@ export default class Form extends React.Component {
               Pin code:
               <input className="inputform" type="number"></input>
             </label>
-          </div> */}
-          <input type="submit" value="submit"></input>
+          </div>
+          <input type="submit" value="Submit"></input>
         </form>
       </div>
     );

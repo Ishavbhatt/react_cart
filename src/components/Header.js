@@ -7,7 +7,8 @@ export default function Header(props) {
         Cart
       </h1>
       <p className="cart" onClick={props.handleactivepage}>
-        cart {props.cart.length}
+        <img className="cartimage" src="images/shopping-cart.png" />{" "}
+        {props.cart.length}
       </p>
     </div>
   );

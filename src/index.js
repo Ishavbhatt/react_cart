@@ -6,7 +6,7 @@ import Product from "./components/Product";
 import Header from "./components/Header";
 import Form from "./components/Form";
 
-import "./main.css";
+import "./styles/main.css";
 
 function Products(props) {
   console.log(props);
