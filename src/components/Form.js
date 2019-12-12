@@ -18,8 +18,7 @@ export default class Form extends React.Component {
   };
 
   handleSubmit = event => {
-    alert("An name was submitted: " + this.state.name);
-    // alert("Order Successfully");
+    alert("Order Successfully");
     event.preventDefault();
   };
 
