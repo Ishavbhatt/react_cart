@@ -1,1 +1,94 @@
-@import-normalize;
+.wrapper {
+  width: 500px;
+}
+.header {
+  background-color: #e2e8f0;
+}
+.heading {
+  color: #4ec0d0;
+}
+.products,
+.header,
+.totalamount {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+}
+.addbutton {
+  padding: 10px;
+  border-radius: 10%;
+  font-size: 20px;
+  background-color: white;
+  color: aqua;
+  outline: none;
+  border: 1px solid aqua;
+}
+.checkoutbutton,
+.submitbutton {
+  border-radius: 30%;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid lawngreen;
+  color: lawngreen;
+
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: auto;
+}
+.formdata {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 500px;
+}
+.formpadding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cartimage {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.inputform {
+  margin-left: 50px;
+  float: right;
+  font-size: 15px;
+  color: black;
+}
+label {
+  font-size: 25px;
+  color: black;
+}
+.cartedproduct {
+  font-size: 35px;
+  font-weight: 300;
+  color: tomato;
+  text-shadow: 2px 2px black;
+}
+.cartedprice {
+  font-size: 25px;
+  color: rgb(218, 39, 27);
+}
+span {
+  color: yellow;
+}
+.totalamountheading {
+  font-size: 30px;
+  color: #dd5533;
+  text-shadow: 2px 3px #bbbbbb;
+}
+.cartpage-productheading {
+  font-size: 40px;
+  color: rgb(51, 93, 209);
+  text-shadow: 2px 4px magenta;
+}
